@@ -61,7 +61,7 @@
         var getSongIndex = function(song) {
             return currentAlbum.songs.indexOf(song);
         };
-        
+
         /**
         * @desc Song that is currently being played or has been paused
         * @type {Object}
