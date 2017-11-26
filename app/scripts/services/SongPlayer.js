@@ -54,8 +54,13 @@
         }
 
         var stopSong = function(song) {
-            currentBuzzObject.stop();
-            SongPlayer.currentSong.playing = null;
+            //console.log(song);
+            if (song === undefined) {
+                return;
+            } else {
+                currentBuzzObject.stop();
+                SongPlayer.currentSong.playing = null;
+            }
         }
 
         /**
@@ -80,6 +85,7 @@
         */
         SongPlayer.currentTime = null;
 
+
         /**
         * @function SongPlayer.play
         * @desc Public method that plays audio file
@@ -91,7 +97,9 @@
                 setSong(song);
                 playSong(song);
             } else if (SongPlayer.currentSong === song) {
-                if (currentBuzzObject.isPaused()) {
+                if (song === null) {
+                    return;
+                } else if (currentBuzzObject.isPaused()) {
                     playSong(song);
                 }
             }
@@ -135,7 +143,7 @@
             var currentSongIndex = getSongIndex(SongPlayer.currentSong);
             currentSongIndex++;
 
-            if (currentSongIndex > currentAlbum.songs.length) {
+            if (currentSongIndex >= currentAlbum.songs.length) {
                 stopSong(song);
                 // currentBuzzObject.stop();
                 // SongPlayer.currentSong.playing = null;
