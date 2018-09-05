@@ -78,6 +78,6 @@
     }
 
     angular
-        .module('blocJams')
+        .module('rockOn')
         .directive('seekBar', ['$document', seekBar]);
 })();

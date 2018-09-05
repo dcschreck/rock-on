@@ -25,6 +25,6 @@
     }
 
     angular
-        .module('blocJams', ['ui.router'])
+        .module('rockOn', ['ui.router'])
         .config(config);
 })();

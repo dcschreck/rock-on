@@ -178,6 +178,6 @@
     }
 
     angular
-        .module('blocJams')
+        .module('rockOn')
         .factory('SongPlayer', ['$rootScope', 'Fixtures', SongPlayer]);
 })();

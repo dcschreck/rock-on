@@ -48,6 +48,6 @@
     }
 
     angular
-        .module('blocJams')
+        .module('rockOn')
         .factory('Fixtures', Fixtures);
 })();

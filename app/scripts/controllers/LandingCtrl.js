@@ -4,6 +4,6 @@
     }
 
     angular
-        .module('blocJams')
+        .module('rockOn')
         .controller('LandingCtrl', LandingCtrl);
 })();

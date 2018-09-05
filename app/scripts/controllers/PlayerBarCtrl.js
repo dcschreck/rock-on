@@ -5,6 +5,6 @@
     }
 
     angular
-        .module('blocJams')
+        .module('rockOn')
         .controller('PlayerBarCtrl', ['Fixtures', 'SongPlayer', PlayerBarCtrl]);
 })();

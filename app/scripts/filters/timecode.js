@@ -26,6 +26,6 @@
     }
 
     angular
-        .module('blocJams')
+        .module('rockOn')
         .filter('timecode', timecode);
 })();

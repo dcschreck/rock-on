@@ -1,28 +1,21 @@
-# Bloc Jams AngularJS Starter
+## Rock On!!
 
-This repository serves as a starter project for Bloc's AngularJS-driven music player app. 
+**About**
 
-To get started, [fork](https://help.github.com/articles/fork-a-repo/) this repository. Forking a repository makes a copy and adds it to your own GitHub account. This is an important step, because the your work will need be on your Github account and not Bloc's. 
+Rock On!! is a music player web application. Load songs and albums into the app and rock out anywhere you go!
 
-Rename your forked repository to `bloc-jams-angularjs` in Github (available under the **Settings** tab of your repository).
+**Homepage**
 
-Open your terminal, `cd` into your `~/bloc` directory, and clone your repository.
+<img src="assets/images/homepage.png" >
 
-```bash
-$ cd ~/bloc
-$ git clone https://github.com/{username}/bloc-jams-angularjs.git
-```
+**Album Collection**
 
-Make sure to replace `{username}` with your GitHub username.
+<img src="assets/images/album_collection.png" >
 
-1. Change into the directory: `$ cd bloc-jams-angularjs`.
-2. Run `$ npm install` to download/install the needed dependencies
-3. Start the node server: `npm start`.
-4. Open a web browser, go to `http://localhost:3000`, and verify that you see the Bloc Jams landing page.
+**Music Player**
 
-You can press `ctrl + c` at any time to stop the server. 
+<img src="assets/images/player_bar.png" >
 
-You'll want to keep the server running whenever you're working on your project. 
+## Specs
 
-
-
+Rock On!! was built with JavaScript (AngularJS), HTML and CSS. Load your music into app/assets/music and enjoy! Feel free to load album covers if you'd like, but it's not necessary...covers aren't need to Rock On!!
