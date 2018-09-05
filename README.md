@@ -6,15 +6,15 @@ Rock On!! is a music player web application. Load songs and albums into the app 
 
 **Homepage**
 
-<img src="assets/images/homepage.png" >
+<img src="assets/images/homepage.png" width="800">
 
 **Album Collection**
 
-<img src="assets/images/album_collection.png" >
+<img src="assets/images/album_collection.png" width="800">
 
 **Music Player**
 
-<img src="assets/images/player_bar.png" >
+<img src="assets/images/player_bar.png" width="800">
 
 ## Specs
 
