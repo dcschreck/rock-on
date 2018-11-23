@@ -1,21 +1,20 @@
-## Rock On!!
+# Rock On!!
 
-**About**
+Rock On!! is a fully responsive music player web application. Load songs and albums into the app and rock on anywhere!
 
-Rock On!! is a music player web application. Load songs and albums into the app and rock out anywhere you go!
-
+## Screenshots
 **Homepage**
 
-<img src="assets/images/homepage.png" width="800">
+<img src="assets/images/homepage.png" >
 
 **Album Collection**
 
-<img src="assets/images/album_collection.png" width="800">
+<img src="assets/images/albums.png" >
 
 **Music Player**
 
-<img src="assets/images/player_bar.png" width="800">
+<img src="assets/images/player.png" >
 
-## Specs
+## Technical
 
-Rock On!! was built with JavaScript (AngularJS), HTML and CSS. Load your music into app/assets/music and enjoy! Feel free to load album covers if you'd like, but it's not necessary...covers aren't need to Rock On!!
+Rock On!! was built with JavaScript (AngularJS), HTML and CSS. Load your music into the app/assets/music folder and enjoy! Feel free to load album covers if you'd like, but it's not necessary...covers aren't needed to Rock On!!
